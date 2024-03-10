@@ -1,0 +1,119 @@
+/* JOHN CARLO SAMODIO MISA */
+
+/* custom colors */
+:root {
+    /* text colors */
+    --transparent-color: transparent;
+    --th-primary-color: white;
+    --primary-color: #15c6da;
+    --secondary-color: #c5dee3;
+    --th-border-color: #0d7876;
+    --td-border-color: #4c8281;
+
+    /* bg colors */
+    --body-bg-color: #212121;
+    --primary-bg-color: #161617;
+    --secondary-bg-color: #303033;
+    --td-bg-color: #19191b;
+}
+
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+.invisible-text {
+    color: var(--transparent-color);
+}
+
+.unused-cell {
+    background-color: inherit;
+}
+
+.lab {
+    display: block;
+}
+
+.img-head {
+    background-color: var(--primary-bg-color);
+    /* Bootstrap's bg-light color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid var(--th-border-color);
+}
+
+.img-head-brand img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.img-head-brand h3 {
+    display: inline;
+    font-size: 30px;
+}
+
+.img-head .fbLink {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+
+.img-head .fbLink:hover {
+    color: var(--primary-color);
+}
+
+.img-head-brand {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.table-container {
+    margin: 40px;
+    box-shadow: 8px 12px 8px rgba(48, 126, 198, 0.1);
+    width: 85%; /* set the table width to 85% of the screen */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th {
+    background-color: var(--primary-bg-color);
+    color: var(--th-primary-color);
+    border: 1px solid var(--th-border-color);
+}
+
+thead tr th:nth-child(1) {
+    width: 10%; /* set the first column width to 10% */
+}
+
+tbody tr th {
+    background-color: var(--primary-bg-color);
+    color: var(--th-primary-color);
+    border: 1px solid var(--th-border-color); /* different border color for the rest of the table */
+    width: 15%; /* set the rest of the cell width to 15% */
+}
+
+tbody tr td {
+    background-color: var(--td-bg-color);
+    font-weight: 100;
+    color: var(--secondary-color);
+    border: 1px solid var(--td-border-color); /* different border color of table body */
+    width: 15%;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: center;
+}

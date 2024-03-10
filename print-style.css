@@ -1,0 +1,41 @@
+* {
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+body {
+    background-color: red;
+    color: black;
+}
+
+.table-container {
+    border: none;
+}
+
+.img-head {
+    border: 1px solid black;
+}
+
+table {
+    background-color: rgb(136, 136, 136);
+    border: 1px solid black;
+    color: black;
+}
+
+thead tr th {
+    background-color: rgb(136, 136, 136);
+    border: 1px solid black;
+    color: black;
+}
+
+tbody tr th {
+    background-color: rgb(136, 136, 136);
+    border: 1px solid black;
+    color: black;
+}
+
+tbody tr td {
+    background-color: rgb(136, 136, 136);
+    border: 1px solid black;
+    color: black;
+}
